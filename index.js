@@ -1,4 +1,4 @@
-class MyModule{
+class MyModule {
   static toFloat(num){
     return num.toFixed(1)
   }
@@ -9,3 +9,6 @@ class MyModule{
     return Boolean(num)
   }
 } 
+
+
+module.exports = MyModule
